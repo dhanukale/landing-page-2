@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: arial;
 }
 
 /*Flex Container*/
@@ -10,8 +10,6 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
   background-color: #131111;
   padding: 15px;
 }
@@ -44,4 +42,131 @@ a {
 
 a:hover {
   color: white;
+}
+
+/*Flex Container*/
+.basicInfo {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+/*Flex item*/
+.picHolder {
+  padding-left: 100px;
+  padding-right: 20px;
+}
+.pic {
+  height: 350px;
+  width: 850px;
+  border-radius: 5px;
+}
+
+/*Flex item*/
+.tagLine {
+  padding-right: 100px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.tagLine > h3 {
+  font-weight: 150;
+  font-size: 30px;
+  color: #1f2937;
+}
+
+#p1 {
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  color: #1f2937;
+}
+
+.theButton {
+  height: 35px;
+  width: 100px;
+  border-radius: 3px;
+  border-color: #3882f6;
+  border: 2px solid white;
+  font-weight: bold;
+  background-color: #3882f6;
+  transition-duration: 0.4s;
+  color: white;
+  font-weight: 100;
+}
+
+.theButton:hover {
+  background-color: #1818a3;
+}
+
+.basicInfo2 {
+  background-color: rgb(92, 89, 89);
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 115px;
+  margin-right: 115px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 115px;
+  margin-right: 115px;
+  margin-bottom: 40px;
+}
+
+.cardOne {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.section1 {
+  padding: 30px;
+  border: 1px solid gray;
+  border-bottom: 0;
+  border-radius: 5px;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  width: 400px;
+}
+
+.section1 > h3 {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.section1 > p {
+  font-size: 15px;
+}
+
+.section2 {
+  padding: 10px;
+  border: 1px solid #3882f6;
+  background-color: #d9e6fa;
+  border-radius: 5px;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+}
+
+.section2 > button {
+  width: 90px;
+  height: 25x;
+  padding: 10px;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 3px;
+  border-color: #3882f6;
+}
+
+.footer {
+  justify-content: center;
+  background-color: #1f2937;
+  padding: 30px;
+  color: white;
+  text-align: center;
 }
