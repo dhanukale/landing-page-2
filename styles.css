@@ -145,7 +145,8 @@ a:hover {
 }
 
 .section2 {
-  padding: 10px;
+  padding: 20px;
+  padding-left: 30px;
   border: 1px solid #3882f6;
   background-color: #d9e6fa;
   border-radius: 5px;
